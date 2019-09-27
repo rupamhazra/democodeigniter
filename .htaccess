@@ -1,0 +1,32 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ index.php/$1 [L,QSA] 
+
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+<FilesMatch "\.(css|js)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+</IfModule>
+#Force www:
+RewriteEngine on
+
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s(.*)/index.php/?([^\ \?]*) [NC]
+RewriteRule ^ %1/%2 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^shyamfuture.com [NC]
+RewriteRule ^(.*)$ http://www.shyamfuture.com/$1 [L,R=301,NC]
+
+
+
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule ^/?$ "http\:\/\/shyamfuture\.com\/" [R=301,L]

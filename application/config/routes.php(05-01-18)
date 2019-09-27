@@ -1,0 +1,74 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$route['default_controller'] = 'sitemanager';
+$route['404_override'] = 'sitemanager/pagenotfound';
+$route['translate_uri_dashes'] = FALSE;
+$route['404']='sitemanager/pagenotfound';
+
+/*require_once( BASEPATH .'database/DB.php' );
+$db =& DB();
+$db->where('is_active=','active');
+$query = $db->get('pages');
+$result = $query->result();
+foreach($result as $row){
+	$route[$row->page_url]="sitemanager/showPage";
+}*/
+/* $sql="SELECT p1.page_url as childUrl, p2.page_url as parentUrl from pages p1 LEFT OUTER JOIN pages p2 ON p1.parent_id=p2.page_id where p1.parent_id >0";
+$res=$db->query($sql);
+$result=$res->result();
+foreach($result as $row){
+	$route[$row->parentUrl . '/' . $row->childUrl]="sitemanager/showSubPage";
+} */
+
+
+$route['blog']='sitemanager/blogList';
+$route['contact-us'] = 'sitemanager/contact';
+$route['save-contact'] = 'sitemanager/saveContact';
+$route['thank-you'] = 'sitemanager/thank_you';
+$route['career'] = 'sitemanager/career';
+$route['request-a-quote']='sitemanager/request_a_quote';
+$route['send-request']='sitemanager/send_request';
+
+/*================ Admin routing =====================*/
+
+
+$route['admin']='adminmanager/index';
+$route['admin-dashboard']='adminmanager/dashboard';
+$route['do-login']='adminmanager/doLogin';
+$route['log-out']='adminmanager/logout';
+$route['admin/add-page']='adminmanager/addPage';
+$route['admin/save-page']='adminmanager/savePage';
+$route['admin/change-page-status/(:num)']='adminmanager/chagePageStatus/$1';
+$route['admin/delete-page/(:num)']='adminmanager/deletePage/$1';
+$route['admin/edit-page/(:num)']='adminmanager/editPage/$1';
+$route['admin/update-page/(:num)']='adminmanager/updatePage/$1';
+$route['admin/update-content/(:num)']='adminmanager/updateContent/$1';
+$route['admin/update-banner/(:num)']='adminmanager/updateBanner/$1';
+$route['admin/remove-banner/(:num)']='adminmanager/removeBanner/$1';
+$route['admin/update-page-meta/(:num)']='adminmanager/updatePageMeta/$1';
+$route['admin/upload-image']='adminmanager/uploadImage';
+
+$route['admin/blog-category']='blogmanager/index';
+$route['admin/add-blog-category']='blogmanager/addBlogCategory';
+$route['admin/save-blog-category']='blogmanager/saveBlogCategory';
+$route['admin/blog-add']='blogmanager/addBlog';
+$route['admin/blog-list']='blogmanager/blogList';
+$route['admin/change-blog-status/(:any)']='blogmanager/change_blog_status/$1';
+$route['admin/delete-blog/(:any)']='blogmanager/delete_blog/$1';
+$route['admin/change-blog-category-status/(:any)']='blogmanager/changeBlogCategoryStatus/$1';
+$route['admin/edit-blog-category/(:any)']='blogmanager/editBlogCategory/$1';
+$route['admin/update-blog-category/(:any)']='blogmanager/updateBlogCategory/$1';
+$route['admin/delete-blog-category/(:any)']='blogmanager/deleteBlogCategory/$1';
+$route['admin/update-blog-meta/(:num)']='blogmanager/updateBlogMeta/$1';
+$route['admin/update-blog/(:num)']='blogmanager/updateBlog/$1';
+
+$route['admin/images']='adminmanager/imagelist';
+$route['admin/contacts']='adminmanager/contacts';
+$route['admin/delete-contact/(:num)']='adminmanager/contact_delete/$1';
+$route['admin/delete-uploaded-image/(:any)']='adminmanager/delete_uploaded_image/$1';
+
+
+$route['blog/(:any)']='sitemanager/blogListByCategory/$1';
+$route['blog/(:any)/(:any)']='sitemanager/blogDetails';
+$route['(:any)']='sitemanager/showPage';

@@ -1,0 +1,35 @@
+[29-Jan-2018 09:00:15 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 243
+[29-Jan-2018 09:00:15 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 243
+[29-Jan-2018 09:00:25 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 243
+[29-Jan-2018 09:00:26 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 243
+[29-Jan-2018 09:07:58 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:07:58 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:02 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:02 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:04 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:04 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:42 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:42 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:43 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[29-Jan-2018 09:08:43 Etc/GMT] PHP Fatal error:  Cannot use try without catch or finally in /home/shyamjth/public_html/application/controllers/Sitemanager.php on line 118
+[05-Mar-2018 13:14:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/shyamjth/public_html/application/views/sitetemplate/default.php on line 5
+[05-Mar-2018 13:14:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/shyamjth/public_html/application/views/sitetemplate/default.php on line 5
+[05-Mar-2018 13:14:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/shyamjth/public_html/application/views/sitetemplate/default.php on line 5
+[05-Mar-2018 13:15:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/shyamjth/public_html/application/views/sitetemplate/default.php on line 351
+[05-Mar-2018 13:15:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/shyamjth/public_html/application/views/sitetemplate/default.php on line 351
+[09-Mar-2018 08:58:38 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/shyamjth/public_html/application/views/admin/track_list.php on line 48
+[09-Mar-2018 09:40:46 Etc/GMT] PHP Fatal error:  Call to a member function limit() on null in /home/shyamjth/public_html/application/models/Adminmodel.php on line 107
+[09-Mar-2018 09:46:04 Etc/GMT] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result_array() in /home/shyamjth/public_html/application/models/Adminmodel.php on line 108
+[09-Mar-2018 09:46:35 Etc/GMT] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::limit() in /home/shyamjth/public_html/application/models/Adminmodel.php on line 107
+[09-Mar-2018 09:47:09 Etc/GMT] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::limitr() in /home/shyamjth/public_html/application/models/Adminmodel.php on line 106
+[21-May-2018 10:51:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/shyamjth/public_html/application/views/front/blog_list.php on line 107
+[25-May-2018 11:06:02 Asia/Kolkata] PHP Fatal error:  Call to undefined function get_permalink() in /home/shyamjth/public_html/application/views/front/blogdetails.php on line 57
+[25-May-2018 11:07:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function get_permalink() in /home/shyamjth/public_html/application/views/front/blogdetails.php on line 57
+[08-Jun-2018 12:38:35 Asia/Kolkata] PHP Fatal error:  Call to undefined function the_permalink() in /home/shyamjth/public_html/application/views/front/blogdetails.php on line 60
+[08-Jun-2018 12:38:39 Asia/Kolkata] PHP Fatal error:  Call to undefined function the_permalink() in /home/shyamjth/public_html/application/views/front/blogdetails.php on line 60
+[08-Jun-2018 12:38:42 Asia/Kolkata] PHP Fatal error:  Call to undefined function the_permalink() in /home/shyamjth/public_html/application/views/front/blogdetails.php on line 60
+[08-Jun-2018 12:39:19 Asia/Kolkata] PHP Fatal error:  Call to undefined function the_permalink() in /home/shyamjth/public_html/application/views/front/blogdetails.php on line 60
+[09-Jul-2018 11:32:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'substr' (T_STRING), expecting ',' or ';' in /home/shyamjth/public_html/application/views/front/blog_list.php on line 19
+[09-Jul-2018 11:32:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'substr' (T_STRING), expecting ',' or ';' in /home/shyamjth/public_html/application/views/front/blog_list.php on line 19
+[09-Jul-2018 11:32:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'substr' (T_STRING), expecting ',' or ';' in /home/shyamjth/public_html/application/views/front/blog_list.php on line 19
+[09-Jul-2018 11:32:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'substr' (T_STRING), expecting ',' or ';' in /home/shyamjth/public_html/application/views/front/blog_list.php on line 19

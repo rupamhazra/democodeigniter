@@ -1,0 +1,167 @@
+<?php
+
+  include_once("config/connection.php");
+  if(!empty($rawDataArray) && $rawDataArray['#serviceName'] == 'register2'){
+         
+ 		 
+		  
+		   	$serviceName=$rawDataArray['#serviceName'];
+		  	$emp_name = $rawDataArray['emp_name'];
+			$emp_code = $rawDataArray['emp_code'];
+			$mobile_no = trim($rawDataArray['mobile_no']);
+			$password = $rawDataArray['password'];
+			$confirmpwd = $rawDataArray['confirmpwd'];
+			$device_id = $rawDataArray['device_id'];
+			
+			
+			
+			$error=0;
+			//checking for Employee Code ////////////
+			
+			if($emp_code=='')
+			{
+				
+					$msg="Employee Code is Required";
+					$error=1;
+					
+			}
+			
+		
+			if($mobile_no=='')
+			{
+				
+					$msg="Mobile Number is Required";
+					$error=1;
+					
+			}
+			
+			if($password=='')
+			{
+				
+					$msg="Password No is Required";
+					$error=1;
+					
+			}
+			if($confirmpwd=='')
+			{
+				
+					$msg="Confirm Password No is Required";
+					$error=1;
+					
+			}
+			
+			
+			
+			
+			
+			if($emp_code!='')
+			{
+				$count=mysql_num_rows(mysql_query("select emp_code from `employee` where `emp_code`='".mysql_real_escape_string($emp_code)."' and `d_status`='0' and device_id='0' "));
+					if($count==0)
+					{	
+					$msg="Employee Code is not avialable";
+					
+					$error=1;
+					}
+			}
+			
+			
+			
+			
+			//////////////////////Checking for Mobile Number///////////////
+			
+			if($mobile_no!='' && $error==0)
+			{
+				
+				$count=mysql_num_rows(mysql_query("select mobile_no from `employee` where `mobile_no`=".mysql_real_escape_string($mobile_no)." and `d_status`='0'   "));
+					if($count>0)
+					{	
+						$msg="Mobile  No is already Exists . Please Give Different Mobile No";
+						$error=1;
+					}
+			}
+			
+			
+			
+			if($password!='' && $confirmpwd!=''&& $error==0)
+			{
+				
+					if($password != $confirmpwd)
+					{	
+						$msg="Password and Confirm password should Match";
+						$error=1;
+					}
+					
+			}
+			
+		
+		if($error==0){
+		
+		
+		$qid=mysql_query("select emp_id from `employee` where `emp_code`='".mysql_real_escape_string($emp_code)."' and `d_status`='0'");
+		$roowId = mysql_fetch_assoc($qid);
+		$account_id=$roowId['emp_id'];
+		
+		
+		
+		
+		if($emp_name=='')
+		{
+				
+			$query="UPDATE `employee` SET mobile_no='".$mobile_no."', password='".$password."',registered='1', device_id='".$device_id."' WHERE emp_id='".$account_id."'";
+					
+		}
+		else{	
+		
+			$query="UPDATE `employee` SET emp_name='".$emp_name."', mobile_no='".$mobile_no."', password='".$password."',registered='1',device_id='".$device_id."' WHERE emp_id='".$account_id."'";
+		}
+		mysql_query($query);
+		
+		
+			    
+		$msg = 'Successfully Registered';
+		$response['details']= array();
+		
+		$qcheck=mysql_query("SELECT * from employee as e LEFT JOIN area AS a ON e.area_id=a.id where 1 and e.`emp_id`='".$account_id."' ");
+		$roowEmp = mysql_fetch_assoc($qcheck);
+		
+ 		$token = base64_encode($account_id.'|SnapUpApi');
+		 
+		$data=array();
+ 		$data['emp_id'] = $roowEmp['emp_id'];
+ 		$data['emp_name'] = $roowEmp['emp_name'];
+ 		$data['emp_code'] = $roowEmp['emp_code'];
+ 		$data['area_id'] = $roowEmp['area_id'];
+ 		$data['mobile_no'] = $roowEmp['mobile_no'];
+		$data['area_name'] = $roowEmp['area_name'];
+		$data['area_address'] = $roowEmp['area_address'];
+		$data['pincode'] = $roowEmp['pincode'];
+		$data['device_id'] = $roowEmp['device_id'];
+		$data['token'] = $token;
+		
+		
+	 
+ 		array_push($response['details'], $data);
+		
+		$status=1;	
+			
+		}
+		else
+		{
+		  $response['details']= array();
+	
+		  $status=0;
+		  
+		}
+		    
+	
+		 $output = array("#serviceName" => $serviceName, "status" => $status,"msg" => $msg,  "details" => $response['details']);
+		 
+ }else{
+  		$output = array("#serviceERR"=>1);
+ } 
+ 
+  header('Content-Type: application/json');
+    print json_encode($output);
+  
+?>

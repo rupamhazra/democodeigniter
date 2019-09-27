@@ -1,0 +1,158 @@
+@media only screen and (max-width : 1920px) {
+ .light-dark {
+   
+    background-size: cover;
+}   
+ .work-item>img {
+  
+    width: 100%;
+}   
+    
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+    .homepage-hero-module {     top: -34px;
+    }  
+    .carousel-caption h2 {
+    font-size: 45px;}
+    .carousel-caption h3 {
+    font-size: 30px;
+}
+    .carousel-caption p {
+
+    font-size: 14px;
+
+}
+  .services-item .divider-one {
+    left: 322px;
+}
+    .services-item .divider-two {
+    left: 643px;
+}
+    .services-item .vert-one {
+    left: 0;
+    top: 268px;
+}
+    .service-item {
+    text-align: justify;
+}
+    
+    
+}
+@media only screen and (max-width : 1199px) {}
+
+
+@media only screen and (max-width : 992px) {
+    
+    .homepage-hero-module {     top: -76px; height: 425px;
+}  
+ .carousel-caption {
+    top: 37%;
+} 
+.carousel-caption h2 {
+    font-size: 35px;
+}
+.main-menu li {
+    
+    margin-left: 14px;
+   
+}    
+    .flex-caption { text-align: center;  }
+    .devider:before {     left: 21%; }
+    .devider:after { right: 21%; }
+    .hor, .vert { display: none; }
+    .service-item {
+  
+    padding: 21px 20px 0px 85px;
+    }
+    .counters-flow:before {
+    content: "";
+ display: none;
+}
+    .counters-flow {     margin-bottom: 30px; }
+}
+@media only screen and (max-width : 991px) {
+ .our-team, .counters-item {
+     margin: 0px; 
+    width: 100%; 
+}   
+    .counters-item img { width: 100%;  }
+    .number-counters .col-md-2 { margin-bottom: 20px; }
+    
+}
+
+
+@media only screen and (max-width : 768px) {
+    .main-menu { width: 100%;  }
+    .main-menu li { display: block; float: none; }    
+    
+}
+@media only screen and (max-width : 767px) {}
+
+ 
+@media only screen and (max-width : 480px) {
+    .footer-single {
+    margin-bottom: 15px;
+    text-align: center;
+}
+    .homepage-hero-module .carousel-caption { text-align: center; left: 0%; }  
+    
+    
+    
+    .button {
+        width: 75px;}
+    .plan-content-box { width: 100%; }
+    .single_plan__block::after, .single_plan__block-img::after { width: 100%; }
+    .venture-sec .col-md-12:nth-child(2n) {
+    margin-left: 0;
+}
+  .banner .banner-text {
+    top: 56%;
+    left: 0;
+    font-size: 21px;
+    text-align: center;
+    display: block;
+    width: 100%;}  
+    .banner .banner-text:before {
+ width: 165px;
+}
+.fixed-hedder {
+  height: 74px;
+}
+.sec-title h2 {
+    font-size: 17px;
+} 
+.devider:before {
+    left: 8%;
+}
+.devider:after {
+    right: 8%;
+}
+.about-odd-ev h3 {
+    font-size: 28px;
+ 
+    margin-top: 20px;
+}
+    .info-section .add-sec:before { display: none;}    
+    .iconset {
+    float: none;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+.bg-skills {
+    background: #0618296e;
+    padding: 25px;
+}
+.skill-bg1 {
+  
+    background-size: cover;
+}   
+    .bg-skills h3 { text-align: center;  }  
+}
+@media only screen and (max-width : 479px) {}
+
+
+@media only screen and (max-width : 320px) {}

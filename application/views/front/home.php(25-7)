@@ -1,0 +1,740 @@
+
+    <section class="banner">
+        
+<div class="homepage-hero-module">
+    
+          <div class="carousel-caption">
+   <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow fadeInDown animated color">Presenting<br><span> Shyam Future Tech</span></h2>
+                        <h3 data-wow-duration="1000ms" class="wow fadeInLeft animated"><span>Industry</span> Leader in 
+                            
+                            
+<span class="txt-rotate color wow slideInRight animated" data-period="2000"
+     data-rotate='[  "ERP & CRM Solutions.", "Digital Marketing.", "Mobile App Development.", "Web Design & Development." ]'></span></h3>
+ <br>
+                        <div class="clearfix"></div>
+            
+                    </div>
+
+    <div class="video-container">
+    
+        <video autoplay loop class="fillWidth">
+            <source src="<?php echo base_url('assets/img/video/Home_work.mp4'); ?>" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="<?php echo base_url('assets/img/video/Home_work.webm'); ?>" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              <source src="<?php echo base_url('assets/img/video/Home_work.gif'); ?>" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="PATH_TO_JPEG" alt="">
+        </div>
+    </div>
+</div>
+    
+    </section>
+    
+    
+    
+ <section  class="who-we-bg who-we-img">
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-7 col-md-offset-5">
+       <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms" >
+                    <h2 class="color">Who we are</h2>
+                    
+                </div>
+                 
+
+                      <p>Shyam Future Tech LLP is an Information Technology company based out of Kolkata, India. It is the IT arm of Shyam Steel Industries Ltd, a renowned Indian conglomerate with an annual turnover of more than $280 million and 400+ expert professionals working in its different departments. Our distinguished services cater to the best of business requirements to take your venture to the next level. Our team of experts offer unmatched ERP solution, CRM solution, website development and maintenance, android app development and maintenance, brand building and digital marketing, and even graphics designing to boost your business growth and development.    <a  class="color" href="<?php echo base_url('about-us'); ?>"> Read More ...</a></p>
+<!--                      <a class="read-more" href="<?php echo base_url('about-us'); ?>"> Read More </a>-->
+                     
+      
+                     
+                <ul class="who-we-liststyle">
+                <li class="wow fadeInUp animated" data-wow-duration="500ms" > <img src="<?php echo base_url('assets/img/who-we1.png'); ?>" alt="shyam future llp"></li>     
+                 <li class="wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms" > <img src="<?php echo base_url('assets/img/who-we2.png'); ?>" alt="shyam future llp"></li>     
+                  <li class="wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="500ms" > <img src="<?php echo base_url('assets/img/who-we3.png'); ?>" alt="shyam future llp"></li>     
+                  <li class="wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="700ms" > <img src="<?php echo base_url('assets/img/who-we4.png'); ?>" alt="shyam future llp"></li>     
+                  <li class="wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms" > <img src="<?php echo base_url('assets/img/who-we5.png'); ?>" alt="shyam future llp"></li>     
+                  <li class="wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1000ms" > <img src="<?php echo base_url('assets/img/who-we6.png'); ?>" alt="shyam future llp"></li>     
+               </ul>     
+                </div>
+                <div class="clearfix"></div>
+               
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+       <div class="sec-title text-center mb30 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms" >
+                    <h2 class="color">OUR HAPPY CUSTOMERS </h2>
+                    <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt="shyam future llp"></div>
+                </div>
+      
+        
+                <div class="col-md-12 testimonial-video">
+                    <div class="flexslider flexslider-about shadow dark wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <ul class="slides testi-video">
+                            <li>
+                                <div  class="lapi-half">
+                          
+                                <img src="<?php echo base_url('assets/img/half-lapi.png'); ?>" alt="shyam future llp" />
+                                    
+                                    <a       id="lightbox" href="https://www.youtube.com/watch?v=KGQtqnWbync?rel=0&autoplay=1" >
+                                      <div href="#" class="lds-ripple"><div></div><div>
+                                             <img src="<?php echo base_url('assets/img/play-btn.png'); ?>" alt="shyam future llp" />
+                                          </div></div></a>
+                                    
+                                    <div class="position">
+                                    <h3 class="color">Kevin Leong</h3>
+                                       
+                                    <span>Sales and Marketing Manager at <a target="_blank" href="http://mat2.gamesoft.com.ph/" class="color">gamesoft</a></span>
+                               
+                                    </div>
+                                    
+                                </div>
+                          
+                                
+                                
+                            
+                               
+            
+
+                               
+                            </li>
+                      
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- video-sec-->
+                   <div class="modal fade" id='playerModal' role='dialog' tabindex='-1'>
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" aria-label='Close' data-dismiss='modal', type='button'>
+                      <span aria-hidden='true'>×</span></button>
+                    <h4 class="modal-title">Video title</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <div id="player" class="embed-responsive-item"></div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss='modal' type='button'>
+                        Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+          </div>
+                    
+<!-- video-sec-end-->   
+            </div>
+        </div>
+    </section>
+
+   <section id="facts" class="facts">
+        <div class="parallax-overlay">
+            <div class="container">
+                <div class="row number-counters">
+                    <div class="sec-title text-center mb50 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2 class="color">OUR CLIENTS</h2>
+                        <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt=""></div>
+                    </div>
+                    <div id="testimonial-slider" class="owl-carousel">
+                    <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms">
+                        <div class="counters-item"> <img class="img-responsive" src="<?php echo base_url('assets/img/partner-1.jpg'); ?>" alt="">
+                        </div>
+                    </div>
+                    <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="counters-item"> <img class="img-responsive" src="<?php echo base_url('assets/img/partner-5.jpg'); ?>" alt="">
+                        </div>
+                    </div>
+                    <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <div class="counters-item mb0"><img class="img-responsive" src="<?php echo base_url('assets/img/partner-3.jpg'); ?>" alt="">
+                        </div>
+                    </div>
+                    <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/partner-4.jpg'); ?>" alt="">
+                        </div>
+                    </div>
+                       <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1200ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/partner-2.jpg'); ?>" alt="">
+                        </div>
+                    </div>
+                      <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1500ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/partner-6.jpg'); ?>" alt="">
+                        </div>
+                    </div>
+                    <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1700ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/travor-logo.png'); ?>" alt="">
+                        </div>
+                    </div>
+                      <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1900ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/krishana-group.png'); ?>" alt="">
+                        </div>
+                    </div>
+                      <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1900ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/amar-gas.png'); ?>" alt="">
+                        </div>
+                    </div>
+                         <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1900ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/vps4Hosting.png'); ?>" alt="">
+                        </div>
+                    </div>
+                         <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1900ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/isowtc.png'); ?>" alt="">
+                        </div>
+                    </div>
+                         <div class=" text-center wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="1900ms">
+                        <div class="counters-item mb0"> <img class="img-responsive" src="<?php echo base_url('assets/img/hat-we-khod.png'); ?>" alt="">
+                        </div>
+                    </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  <section id="services" class="services light-dark">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title text-center mb50 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2 class="color">Services</h2>
+                    <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt="shyam future llp"></div>
+                </div>
+                
+            
+                
+                
+                <div class="services-item phone-features curved-top">
+         <div class="divider divider-one hor"></div>
+                       <div class="divider divider-two hor"></div>
+                       <div class="divider vert-one vert"></div>
+
+                
+                
+                <div class="col-md-4 col-sm-6 col-xs-12 service-box">
+                    <div class="service-item wow fadeInUp animated counter-box" data-wow-duration="500ms" >
+                               
+                        <div class="service-icon color transition"> <i class="fa fa-calculator"></i></div>
+                        <div class="service-desc">
+                            <h4>ERP Solution</h4>
+                            <p>Compact and strategized software solutions to focus attention on core activities and accelerate business growth. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-box">
+                      <div class="service-item wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="300ms" >
+                               
+                        <div class="service-icon color transition"> <i class="fa fa-sitemap"></i></div>
+                        <div class="service-desc">
+                            <h4>CRM Solution</h4>
+                            <p>Specialized software solution for flawlessly managing customer details and facilitate hassle-free profit making.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-box">
+                    <div class="service-item mb0 wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="400ms">
+             
+                        <div class="service-icon color transition"> <i class="fa fa-paint-brush"></i></div>
+                        <div class="service-desc">
+                            <h4>WebSite Development & Maintenance</h4>
+                            <p>Experts engage in best practices for website designing and development that facilitates your business across varying industries. </p>
+                        </div>
+                    </div>
+                </div>
+                   
+                <div class="col-md-4 col-sm-6 col-xs-12 service-box">
+                    <div class="service-item wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="500ms" >
+                 
+                        <div class="service-icon color transition"> <i class="fa fa-android"></i></div>
+                        <div class="service-desc">
+                            <h4>Android App Development & Maintenance</h4>
+                            <p>Highly skilled experts develop interesting and interactive apps and maintain the same to leverage your venture. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-box">
+                    <div class="service-item wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="600ms" >
+                        
+                        <div class="service-icon color transition"> <i class="fa fa-apple"></i></div>
+                        <div class="service-desc">
+                            <h4>IOS APP Development & Maintenance</h4>
+                            <p>Chosen experts produce user-friendly iOS apps to take your business a notch higher. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 service-box">
+                    <div class="service-item mb0 wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="700ms">
+              
+                        <div class="service-icon color transition"> <i class="fa fa-picture-o"></i></div>
+                        <div class="service-desc">
+                            <h4>Brand building & Digital Marketing</h4>
+                            <p>Unique and effective brand building exercises that make your company stand out and gain unmatched market position.</p>
+                        </div>
+                    </div>
+                </div>
+                  
+            </div></div>
+        </div>
+    </section>
+    
+	
+	
+    
+    <section id="works" class="works clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title text-center mb50 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms" >
+                    <h2 class="color">Works</h2>
+                    <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt="shyam future llp"></div>
+                </div>
+<!--
+                <div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+                    <ul class="text-center">
+                        <li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
+                        <li><a href="javascript:;" data-filter=".wordpress" class="filter">ERP</a></li>
+                        <li><a href="javascript:;" data-filter=".php" class="filter">CRM</a></li>
+                        <li><a href="javascript:;" data-filter=".android-app" class="filter">App</a></li>
+                        <li><a href="javascript:;" data-filter=".digi" class="filter">Digital marketing</a></li>
+                        
+                        <li><a href="javascript:;" data-filter=".web" class="filter">Website</a></li>
+                    </ul>
+                </div>
+-->
+            </div>
+        </div>
+        <div class="project-wrapper">
+            
+           
+            
+            <figure class="mix work-item wordpress  wow fadeInUp animated" data-wow-duration="500ms"> <img src="<?php echo base_url('assets/img/erp-login.jpg'); ?>" alt="shyam future llp">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/erp-login.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+            
+                    <h4>ERP System</h4>
+                    
+                </figcaption>
+            </figure>
+            
+              <figure class="mix work-item wordpress wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">  <img src="<?php echo base_url('assets/img/erp-front-page.jpg'); ?>" alt="shyam future llp">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/erp-front-page.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+          
+                    <h4>ERP System</h4>
+                    
+                </figcaption>
+            </figure>
+            
+            
+            
+            <figure class="mix work-item php wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="500ms">  <img src="<?php echo base_url('assets/img/crm-system.jpg'); ?>" alt="shyam future llp">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/crm-system.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+                  
+                    <h4>Shyam Steel CRM</h4>
+                    
+                </figcaption>
+            </figure>
+          
+            <figure class="mix work-item php wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="700ms">  <img src="<?php echo base_url('assets/img/crm-etusk.jpg'); ?>" alt="shyam future llp">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/crm-etusk.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+                  
+                    <h4>Shyam Steel Etusk</h4>
+                    
+                </figcaption>
+            </figure>
+            
+     <figure class="mix work-item android-app wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">  <img src="<?php echo base_url('assets/img/apps.jpg'); ?>" alt="shyam future llp">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/apps.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+                                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=app.retailcrm.activity&hl=en"><i class="fa fa-external-link" aria-hidden="true"></i>
+</a>  
+                    <h4>Shyam Steel CRM</h4>
+               
+                </figcaption>
+            </figure>
+         
+               <figure class="mix work-item digi wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1100ms">  <img src="<?php echo base_url('assets/img/green-mall.jpg'); ?>" alt="">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/green-mall.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+                                                                  
+                    <h4>Digital marketing</h4>
+                    
+                </figcaption>
+            </figure>
+            
+             <figure class="mix work-item web wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1300ms">  <img src="<?php echo base_url('assets/img/game-soft.jpg'); ?>" alt="">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/game-soft.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+                                                                  
+                    <h4>Website</h4>
+                    
+                </figcaption>
+            </figure>
+            <figure class="mix work-item web wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1500ms">  <img src="<?php echo base_url('assets/img/v4hosting.jpg'); ?>" alt="">
+                <figcaption class="overlay transition"> <a class="portfolio-lightbox" title="" href="<?php echo base_url('assets/img/v4hosting.jpg'); ?>"><i class="fa fa-search fa-lg"></i></a>
+                                                                  
+                    <h4>Website</h4>
+                    
+                </figcaption>
+            </figure>
+            
+            
+            
+            
+        </div>
+    </section>
+
+<!--
+    <section id="feature" class="">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title text-center mb50">
+                    <h2 class="color">Skills</h2>
+                    <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt="shyam future llp"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="row" role="tabpanel">
+                    <div class="col-md-5">
+                        <ul class="features nav nav-pills nav-stacked" role="tablist">
+                            <li role="presentation" class="active wow fadeInUp animated " data-wow-duration="700ms" data-wow-delay="400ms" >
+                                <a href="#f1" class="shadow" aria-controls="f1" role="tab" data-toggle="tab"> <span class="fa fa-mobile"></span>Mobile
+                                    </a>
+                            </li>
+                            <li role="presentation" class="wow fadeInUp animated " data-wow-duration="700ms" data-wow-delay="400ms">
+                                <a href="#f2" class="shadow" aria-controls="f2" role="tab" data-toggle="tab"> <span class="fa fa-pencil"></span>Content Management System (CMS)
+                                     </a>
+                            </li>
+                            <li role="presentation" class="wow fadeInUp animated " data-wow-duration="700ms" data-wow-delay="400ms">
+                                <a href="#f3" class="shadow" aria-controls="f3" role="tab" data-toggle="tab"> <span class="fa fa-shopping-bag"></span> eCommerce
+                                  </a>
+                            </li>
+                            <li role="presentation" class="wow fadeInUp animated " data-wow-duration="700ms" data-wow-delay="400ms">
+                                <a href="#f4" class="shadow" aria-controls="f4" role="tab" data-toggle="tab"> <span class="fa fa-server"></span> Server Side
+                                    </a>
+                            </li>
+                            <li role="presentation" class="wow fadeInUp animated " data-wow-duration="700ms" data-wow-delay="400ms">
+                                <a href="#f5" class="shadow" aria-controls="f5" role="tab" data-toggle="tab"> <span class="fa fa-picture-o"></span> Front End
+                                  </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="tab-content features-content wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div role="tabpanel" class="tab-pane fade in active" id="f1">
+                                  <div id="skills-slider" class="owl-carousel">
+                                <div class="android">
+                                <h4>Android App Development</h4>
+                                <p>Android is a mobile operating system, developed by Google, based on a modified version of Linux and designed mainly for touchscreen mobile devices like the smartphones and tablets. There are many versions of Android, the latest of which is Android 8.0 Oreo.</p> <img src="<?php echo base_url('assets/img/tab01.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                       <div class="ios">
+                                <h4>iOS App Development</h4>
+                                <p>Ios is basically a mobile operating system developed by Apple Inc., especially for their hardware. This operating system currently takes care quite a few of the company ’s mobile devices, which include the iPad, iPhone and iPod Touch.</p> <img src="<?php echo base_url('assets/img/tab-apple.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                        <div class="hybrid">
+                                <h4>Hybrid App Development</h4>
+                                <p>This is an application with a combination of elements of both web and native applications. Hybrid apps can be found in app stores and they assist people in playing games, get in touch with friends on social media and take photos. </p> <img src="<?php echo base_url('assets/img/tab-hybrid.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                </div>
+                                
+                                </div>
+                            <div role="tabpanel" class="tab-pane fade" id="f2">
+                                       <div id="cms-slider" class="owl-carousel">
+                                <div class="android">
+                                <h4>LOW COST EASILY MANAGED CMS</h4>
+                                <p>WordPress does not require PHP nor HTML knowledge unlinke Drupal, Joomla or Typo3. A preinstalled plugin and template function allows them to be installed very easily. All you need to do is to choose a plugin or a template and click on it to install. It's good choice for beginners. </p> <img src="<?php echo base_url('assets/img/cms-wordpress.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                       <div class="ios">
+                                <h4>JOOMLA! CONTENT MANAGEMENT SYSTEM</h4>
+                                <p>Joomla is one of the most popular free content management systems (CMS) in the world that allows you to easily create and manage a dynamic website. It has an intuitive management interface to control all the features and functionality this powerful CMS possesses. Furthermore, there are hundreds of free </p> <img src="<?php echo base_url('assets/img/cms-joomla.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                        <div class="hybrid">
+                                <h4>DRUPAL CONTENT MANAGEMENT SYSTEM</h4>
+                                <p>Drupal includes lot of functionalities like: advanced menu management, polls management, graphics modification tool, users management and much more. These functions make it possible to create simple or advanced websites, blogs, discussion boards, social networking pages, etc.  </p> <img src="<?php echo base_url('assets/img/cms-drupal.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                </div>
+                            
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="f3">
+                                  <div id="shop-slider" class="owl-carousel">
+                                <div class="android">
+                                <h4>WHAT IS MAGENTO?</h4>
+                                <p>Magento is a leading enterprise-class eCommerce platform, empowering over 200,000 online retailers to date and chosen by 1 of every 4 online businesses. </p> <img src="<?php echo base_url('assets/img/ecommerce-magento.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                       <div class="ios">
+                                <h4>WHAT IS SHOPIFY?</h4>
+                                <p>Shopify is the most popular choice among the customers to set up their online store. It offers tons of valuable extensions, and it’s ace in the sleeve - simplicity of interaction. 
+What is Shopify great for is for starting out in eCommerce. </p> <img src="<?php echo base_url('assets/img/ecommerce-Shopify.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                        <div class="hybrid">
+                                <h4>WHAT IS WOOCOMMERCE?</h4>
+                                <p>WooCommerce is a free plugin, or functional extension, for WordPress. It has been downloaded over thirteen million times and operates over 37% of all online stores. When installed into a WordPress website, WooCommerce adds in basic product management, order processing, and shopping cart functionality. </p> <img src="<?php echo base_url('assets/img/woocommerce-icon.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                </div>
+                                
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="f4">
+           <div id="server-slider" class="owl-carousel">
+                                <div class="android">
+                                <h4>WHAT IS LARAVEL?</h4>
+                                <p>Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, </p> <img src="<?php echo base_url('assets/img/laravel-well.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                       <div class="ios">
+                                <h4>CODEIGNITER AND ITS ADVANTAGES & FEATURES</h4>
+                                <p>CodeIgniter is a powerful PHP framework with a very small footprint, built for PHP coders who need a simple and elegant toolkit to create full-featured web applications.  </p> <img src="<?php echo base_url('assets/img/codeIgniter-wheel.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                        <div class="hybrid">
+                                <h4>PHP ADVANTAGES & FEATURES</h4>
+                                <p>PHP is, an application can be run on various platforms. The most important advantage of PHP is the developer need not have to worry about the operating system the user is working on. As the PHP code run properly and smoothly on all operating systems. Furthermore, the server-side scripting language or PHP hosting service providers can easily be found. </p> <img src="<?php echo base_url('assets/img/serverside-php.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                   <div class="hybrid">
+                                <h4>WHAT IS NODE.JS?</h4>
+                                <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. </p> <img src="<?php echo base_url('assets/img/node-js.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                </div>
+                                </div>
+                            <div role="tabpanel" class="tab-pane fade" id="f5">
+                                  <div id="fontend-slider" class="owl-carousel">
+                                <div class="android">
+                                <h4>WHAT IS JQUERY?</h4>
+                                <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. </p> <img src="<?php echo base_url('assets/img/frontend-jQuery.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+                                 
+                                        <div class="hybrid">
+                                <h4>WHAT IS ANGULARJS?</h4>
+                                <p>AngularJS is an open source Model-View-Controller framework which is similar to the JavaScript framework. 
+Angular JS is probably one of the most popular modern day web frameworks available today. This framework is used for developing mostly Single Page applications.  </p> <img src="<?php echo base_url('assets/img/Frontend-angularJS.png'); ?>" class="img-responsive" alt="shyam future llp">
+                                </div>
+             
+                                </div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section id="facts" class="facts">
+        <div class="parallax-overlay">
+            <div class="container">
+                <div class="row number-counters">
+                    <div class="sec-title text-center mb50 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2 class="color">Process Flow</h2>
+                        <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt=""></div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 text-center wow fadeInRight animated counter-box" data-wow-duration="500ms">
+                        <div class="counters-flow fflow"> <i><img src="<?php echo base_url('assets/img/sketch.png'); ?>" alt=""></i> 
+                            <p>Requirement Gathering & Analysis</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 text-center wow fadeInRight animated counter-box" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="counters-flow"> <i><img src="<?php echo base_url('assets/img/wireframe.png'); ?>" alt=""></i> 
+                            <p>Wireframe</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 text-center wow fadeInRight animated counter-box" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <div class="counters-flow "> <i><img src="<?php echo base_url('assets/img/creativity.png'); ?>" alt=""></i> 
+                            <p>UI Design
+Implementation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-2 col-sm-6 col-xs-12 text-center wow fadeInRight animated counter-box" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <div class="counters-flow "> <i><img src="<?php echo base_url('assets/img/coding.png'); ?>" alt=""></i> 
+                             <p>Coding</p>
+                       
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-2 col-sm-6 col-xs-12 text-center wow fadeInRight animated counter-box" data-wow-duration="500ms" data-wow-delay="1200ms">
+                        <div class="counters-flow "> <i><img src="<?php echo base_url('assets/img/search-code.png'); ?>" alt=""></i>  
+                                <p>Testing & QA</p>
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-2 col-sm-6 col-xs-12 text-center wow fadeInRight animated counter-box" data-wow-duration="500ms" data-wow-delay="1500ms">
+                        <div class="counters-flow mb0"> <i><img src="<?php echo base_url('assets/img/cloud.png'); ?>" alt=""></i> 
+                            <p>Deployment</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!--
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title text-center mb50">
+                    <h2 class="color">Happy Customers</h2>
+                    <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt="shyam future llp"></div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div id="testimonial-slider" class="owl-carousel">
+                  <div class="testimonial shadow">
+                            <div class="pic"><a id="lightbox" href="https://www.youtube.com/watch?v=KGQtqnWbync?rel=0&autoplay=1" > <img class="img-rounded" src="<?php echo base_url('assets/img/kimchang.png'); ?>" alt="shyam future llp">
+                            </a></div>
+                            <h3 class="title color">Kevin Leong</h3>
+   <span class="post color"><b>Sales and Marketing Manager</b></span>
+                            <p class="description">I took help from Shyam Future Tech twice, they really can deliver my task and completed perfectly..</p>
+                        </div>
+
+
+                        <div class="testimonial shadow">
+                            <div class="pic"> <img src="<?php echo base_url('assets/img/testi-img.png'); ?>" alt="shyam future llp"></div>
+                            <h3 class="title color">Mariama Camara</h3> 
+
+                            <p class="description"> I am in touch with Shyam Future Tech since a couple of years for iOS mobile app development. It has been a great time working with them. Highly recommended!
+
+</p></div>
+                                   <div class="testimonial shadow">
+                            <div class="pic"> <img src="<?php echo base_url('assets/img/testi-img.png'); ?>" alt="shyam future llp"></div>
+                            <h3 class="title color">George Philip</h3> 
+
+                            <p class="description"> I hired the web professionals to have a business website designed by the experts. I am highly satisfied with the results and looking forward to their digital marketing services.
+
+</p></div>
+
+                    </div>
+                </div>
+                
+   
+                
+            </div>
+        </div>
+    </section>
+-->
+
+<!--
+    <section id="pricing" class="light-dark">
+        <div class="container">
+            <div class="row">
+                <div class="sec-title text-center mb50">
+                    <h2 class="color">Our Pricing</h2>
+                    <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt="shyam future llp"></div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated counter-box" data-wow-duration="500ms" >
+                    <div class="pricingTable shadow">
+                        <h3 class="title dark">BASIC PLAN</h3>
+                        <div class="pricing-content">
+                            <div class="price-value">$10.00 <span class="month">/ month</span></div>
+                            <ul>
+                                <li>50GB Disk Space</li>
+                                <li>50 Email Accounts</li>
+                                <li>50GB Monthly Bandwidth</li>
+                                <li>10 Subdomains</li>
+                                <li>15 Domains</li>
+                            </ul> <a href="#" class="pricingTable-signup transition shadow">Order Now</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="pricingTable shadow">
+                        <h3 class="title dark">BEST PLAN</h3>
+                        <div class="pricing-content">
+                            <div class="price-value color">$20.00 <span class="month">/ month</span></div>
+                            <ul>
+                                <li>60GB Disk Space</li>
+                                <li>60 Email Accounts</li>
+                                <li>60GB Monthly Bandwidth</li>
+                                <li>15 Subdomains</li>
+                                <li>20 Domains</li>
+                            </ul> <a href="#" class="pricingTable-signup transition shadow">Order Now</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="pricingTable shadow">
+                        <h3 class="title dark">PREMIUM PLAN</h3>
+                        <div class="pricing-content">
+                            <div class="price-value">$40.00 <span class="month">/ month</span></div>
+                            <ul>
+                                <li>400GB Disk Space</li>
+                                <li>50 Email Accounts</li>
+                                <li>50GB Monthly Bandwidth</li>
+                                <li>10 Subdomains</li>
+                                <li>15 Domains</li>
+                            </ul> <a href="#" class="pricingTable-signup transition shadow">Order Now</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated counter-box" data-wow-duration="500ms" data-wow-delay="800ms">
+                    <div class="pricingTable shadow">
+                        <h3 class="title dark">BUSINESS PLAN</h3>
+                        <div class="pricing-content">
+                            <div class="price-value">$90.00 <span class="month">/ month</span></div>
+                            <ul>
+                                <li>900GB Disk Space</li>
+                                <li>50 Email Accounts</li>
+                                <li>50GB Monthly Bandwidth</li>
+                                <li>10 Subdomains</li>
+                                <li>15 Domains</li>
+                            </ul> <a href="#" class="pricingTable-signup transition shadow">Order Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row mb50">
+                <div class="sec-title text-center mb50 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <h2 class="color">Let's Discuss</h2>
+                    <div class="devider"><img src="<?php echo base_url('assets/img/sm-logo.png'); ?>" alt="shyam future llp"></div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="contact-address">
+                        <h3>Contact INFO!</h3>
+                      <p>Shyam Towers, EN 32,<br> Sector V, Salt Lake, Kolkata-700091</p>
+                          <a class="mail" href="mailto:sales@shyamfuture.com">sales@shyamfuture.com</a><br>
+                          <a class="ind" href="tel:+91 7604011192">IND+ 91 7604011192</a><br>
+                     <a class="usa" href="tel:+1 60721421216">USA + 1 6072142121</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
+                    <div class="contact-form">
+                        <h3>Say hello!</h3>
+                        <form id='formContact' >
+                            <input type='hidden' name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />
+                            <div class="input-group name-email">
+                                <div class="input-field">
+                                    <input type="text" name="inputName" id="inputName" placeholder="Name" class="form-control cForm">
+                                    <span class="help-block"></span>
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" name="inputEmail" id="inputEmail" placeholder="Email" class="form-control cForm">
+                                    <span class="help-block"></span>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <textarea name="inputMsg" id="inputMsg" placeholder="Message" class="form-control cForm"></textarea>
+                                <span class="help-block"></span>
+                            </div>
+                            <div class="input-group">
+                               <!-- <input type="submit" id="form-submit" class="pull-right" value="Send message">-->
+                                <button type="submit" class="pull-right" id="btnSave" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12">
+                    <ul class="footer-social">
+<li>&nbsp;</li>                                 
+<li><a target="_blank" href="https://www.facebook.com/shyamfuturetech/"><i class="fa fa-facebook fa-2x"></i></a></li>         
+<li><a target="_blank" href="https://twitter.com/shyamfuturetech"><i class="fa fa-twitter fa-2x"></i></a></li>
+<li><a target="_blank" href="https://www.linkedin.com/company/shyamfuturetech/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!--        <div id="map_canvas"></div>-->
+    </section>
+ 

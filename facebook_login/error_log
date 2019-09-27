@@ -1,0 +1,85 @@
+[10-Mar-2018 09:33:42 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login_with_php/User.class.php on line 5
+[10-Mar-2018 09:35:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[10-Mar-2018 09:35:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[10-Mar-2018 09:35:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[10-Mar-2018 09:35:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[10-Mar-2018 09:37:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[10-Mar-2018 09:37:23 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[12-Mar-2018 09:19:31 Etc/GMT] PHP Notice:  Undefined variable: response in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:19:31 Etc/GMT] PHP Fatal error:  Call to a member function getGraphUser() on null in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:19:38 Etc/GMT] PHP Notice:  Undefined variable: response in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:19:38 Etc/GMT] PHP Fatal error:  Call to a member function getGraphUser() on null in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:19:39 Etc/GMT] PHP Notice:  Undefined variable: response in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:19:39 Etc/GMT] PHP Fatal error:  Call to a member function getGraphUser() on null in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:20:09 Etc/GMT] PHP Notice:  Undefined variable: response in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:20:10 Etc/GMT] PHP Fatal error:  Call to a member function getGraphUser() on null in /home/shyamjth/public_html/facebook_login/fbConfig.php on line 47
+[12-Mar-2018 09:41:44 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 49
+[12-Mar-2018 09:41:45 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 49
+[12-Mar-2018 09:43:11 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[12-Mar-2018 09:43:23 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[12-Mar-2018 09:44:35 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[12-Mar-2018 09:44:36 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[12-Mar-2018 09:45:01 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:27:19 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:27:19 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:35:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:35:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:35:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:36:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:36:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:36:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:38:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:38:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:40:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/User.class.php on line 5
+[13-Mar-2018 08:41:04 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:41:04 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:42:51 Etc/GMT] PHP Warning:  include_once(gpConfig.php): failed to open stream: No such file or directory in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:42:51 Etc/GMT] PHP Warning:  include_once(): Failed opening 'gpConfig.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:42:51 Etc/GMT] PHP Notice:  Undefined variable: gClient in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:42:51 Etc/GMT] PHP Fatal error:  Call to a member function getAccessToken() on null in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:43:42 Etc/GMT] PHP Warning:  include_once(gpConfig.php): failed to open stream: No such file or directory in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:43:42 Etc/GMT] PHP Warning:  include_once(): Failed opening 'gpConfig.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:43:42 Etc/GMT] PHP Notice:  Undefined variable: gClient in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:43:42 Etc/GMT] PHP Fatal error:  Call to a member function getAccessToken() on null in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:44:01 Etc/GMT] PHP Warning:  include_once(gpConfig.php): failed to open stream: No such file or directory in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:44:01 Etc/GMT] PHP Warning:  include_once(): Failed opening 'gpConfig.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:44:01 Etc/GMT] PHP Notice:  Undefined variable: gClient in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:44:01 Etc/GMT] PHP Fatal error:  Call to a member function getAccessToken() on null in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:44:05 Etc/GMT] PHP Warning:  include_once(gpConfig.php): failed to open stream: No such file or directory in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:44:05 Etc/GMT] PHP Warning:  include_once(): Failed opening 'gpConfig.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:44:05 Etc/GMT] PHP Notice:  Undefined variable: gClient in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:44:05 Etc/GMT] PHP Fatal error:  Call to a member function getAccessToken() on null in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:46:48 Etc/GMT] PHP Warning:  include_once(gpConfig.php): failed to open stream: No such file or directory in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:46:48 Etc/GMT] PHP Warning:  include_once(): Failed opening 'gpConfig.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/shyamjth/public_html/facebook_login/index.php on line 3
+[13-Mar-2018 08:46:48 Etc/GMT] PHP Warning:  include_once(User.php): failed to open stream: No such file or directory in /home/shyamjth/public_html/facebook_login/index.php on line 4
+[13-Mar-2018 08:46:48 Etc/GMT] PHP Warning:  include_once(): Failed opening 'User.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/shyamjth/public_html/facebook_login/index.php on line 4
+[13-Mar-2018 08:46:48 Etc/GMT] PHP Notice:  Undefined variable: gClient in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:46:48 Etc/GMT] PHP Fatal error:  Call to a member function getAccessToken() on null in /home/shyamjth/public_html/facebook_login/index.php on line 16
+[13-Mar-2018 08:47:25 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:47:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:48:13 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:48:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:49:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:51:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:51:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:51:50 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:52:11 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:52:11 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:52:29 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:52:48 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:53:09 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:53:37 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 08:55:32 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:57:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:57:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/shyamjth/public_html/facebook_login/user.php on line 5
+[13-Mar-2018 08:57:29 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:17:48 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:17:51 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:18:03 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:18:04 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:18:34 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:35:40 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:36:09 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:36:09 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:37:25 Etc/GMT] PHP Fatal error:  Class 'User' not found in /home/shyamjth/public_html/facebook_login/index.php on line 48
+[13-Mar-2018 09:38:03 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'shyamjth_suraj'@'localhost' (using password: YES) in /home/shyamjth/public_html/facebook_login/user.php on line 12
